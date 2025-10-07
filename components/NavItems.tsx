@@ -8,7 +8,7 @@ import SearchCommand from "@/components/SearchCommand";
 type NavItem = {
     href: string;
     label: string;
-};
+}; 
 
 const NavItems = ({initialStocks}: { initialStocks: StockWithWatchlistStatus[]}) => {
     const pathname = usePathname()
